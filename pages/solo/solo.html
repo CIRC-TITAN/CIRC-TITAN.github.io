@@ -12,8 +12,56 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@5.0.15/dark.css" />
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ezdP1lzsNUg" frameborder="0" allowfullscreen></iframe>
 
+
+
+
+
+
+
+
+  
+<div class="video-background">
+    <iframe 
+        src="https://www.youtube.com/embed/ezdP1lzsNUg?autoplay=1&controls=0&rel=0&showinfo=0&mute=1" 
+        allow="autoplay; encrypted-media" 
+        allowfullscreen>
+    </iframe>
+</div>
+
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /* Prevents scrollbars */
+    }
+    .video-background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: -99; /* Send to background */
+    }
+    iframe {
+        width: 100%;
+        height: 100%;
+        border: none; /* Removes border */
+    }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+  
 </head>
 
 <body scroll="no" style="overflow: hidden !important">
